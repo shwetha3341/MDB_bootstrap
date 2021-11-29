@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDB bootstrap</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css'%}">
+</head>
+<body>
+    <div class="alert alert-danger" role="alert">
+        This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+      </div>
+
+
+      <script src="{% static 'js/bootstrap.js' %}"></script> 
+      <script src="{% static 'js/mdb.js' %}"></script> 
+      <script src="{% static 'js/jquery.js' %}"></script> 
+      <script src="{% static 'js/popper.js' %}"></script> 
+      
+</body>
+</html>
